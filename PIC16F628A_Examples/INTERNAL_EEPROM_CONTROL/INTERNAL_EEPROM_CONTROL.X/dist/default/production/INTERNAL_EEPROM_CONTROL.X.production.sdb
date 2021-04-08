@@ -1,0 +1,287 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F628A ]
+[d frameptr 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"16 C:\Users\ACER-PC\Desktop\MPLAB_X_Examples\PIC16F628A_Examples\9_INTERNAL_EEPROM_CONTROL\INTERNAL_EEPROM_CONTROL.X\configurations.c
+[v _Initial_Configurations Initial_Configurations `(v  1 e 1 0 ]
+"163
+[v _EEPROM_write EEPROM_write `(v  1 e 1 0 ]
+"179
+[v _EEPROM_read EEPROM_read `(uc  1 e 1 0 ]
+"188
+[v _EEPROM_clear EEPROM_clear `(v  1 e 1 0 ]
+"197
+[v _EEPROM_get_the_next_free_address EEPROM_get_the_next_free_address `(uc  1 e 1 0 ]
+"36 C:\Users\ACER-PC\Desktop\MPLAB_X_Examples\PIC16F628A_Examples\9_INTERNAL_EEPROM_CONTROL\INTERNAL_EEPROM_CONTROL.X\INTERNAL_EEPROM_CONTROL_Firmware.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+"52
+[v _main main `(v  1 e 1 0 ]
+"59 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f628a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"166
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+[s S64 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"183
+[u S73 . 1 `S64 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES73  1 e 1 @5 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S184 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"333
+[s S193 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S198 . 1 `S184 1 . 1 0 `S193 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES198  1 e 1 @11 ]
+[s S22 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 CMIF 1 0 :1:6 
+`uc 1 EEIF 1 0 :1:7 
+]
+"405
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES31  1 e 1 @12 ]
+"445
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+[s S246 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 TMR1CS 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+]
+"485
+[s S252 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[u S256 . 1 `S246 1 . 1 0 `S252 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES256  1 e 1 @16 ]
+"525
+[v _TMR2 TMR2 `VEuc  1 e 1 @17 ]
+[s S272 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"553
+[s S276 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S284 . 1 `S272 1 . 1 0 `S276 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES284  1 e 1 @18 ]
+"603
+[v _CCPR1 CCPR1 `VEus  1 e 2 @21 ]
+[s S301 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 CCP1Y 1 0 :1:4 
+`uc 1 CCP1X 1 0 :1:5 
+]
+"642
+[s S305 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+]
+[u S310 . 1 `S301 1 . 1 0 `S305 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES310  1 e 1 @23 ]
+[s S323 . 1 `uc 1 CM 1 0 :3:0 
+`uc 1 CIS 1 0 :1:3 
+`uc 1 C1INV 1 0 :1:4 
+`uc 1 C2INV 1 0 :1:5 
+`uc 1 C1OUT 1 0 :1:6 
+`uc 1 C2OUT 1 0 :1:7 
+]
+"787
+[s S330 . 1 `uc 1 CM0 1 0 :1:0 
+`uc 1 CM1 1 0 :1:1 
+`uc 1 CM2 1 0 :1:2 
+]
+[u S334 . 1 `S323 1 . 1 0 `S330 1 . 1 0 ]
+[v _CMCONbits CMCONbits `VES334  1 e 1 @31 ]
+[s S158 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"857
+[s S165 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S169 . 1 `S158 1 . 1 0 `S165 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES169  1 e 1 @129 ]
+"907
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"969
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S43 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 CMIE 1 0 :1:6 
+`uc 1 EEIE 1 0 :1:7 
+]
+"1048
+[u S52 . 1 `S43 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES52  1 e 1 @140 ]
+"1137
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"1208
+[v _EEDATA EEDATA `VEuc  1 e 1 @154 ]
+"1215
+[v _EEADR EEADR `VEuc  1 e 1 @155 ]
+[s S375 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+]
+"1235
+[u S380 . 1 `S375 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES380  1 e 1 @156 ]
+"1260
+[v _EECON2 EECON2 `VEuc  1 e 1 @157 ]
+[s S349 . 1 `uc 1 VR 1 0 :4:0 
+`uc 1 . 1 0 :1:4 
+`uc 1 VRR 1 0 :1:5 
+`uc 1 VROE 1 0 :1:6 
+`uc 1 VREN 1 0 :1:7 
+]
+"1287
+[s S355 . 1 `uc 1 VR0 1 0 :1:0 
+`uc 1 VR1 1 0 :1:1 
+`uc 1 VR2 1 0 :1:2 
+`uc 1 VR3 1 0 :1:3 
+]
+[u S360 . 1 `S349 1 . 1 0 `S355 1 . 1 0 ]
+[v _VRCONbits VRCONbits `VES360  1 e 1 @159 ]
+"52 C:\Users\ACER-PC\Desktop\MPLAB_X_Examples\PIC16F628A_Examples\9_INTERNAL_EEPROM_CONTROL\INTERNAL_EEPROM_CONTROL.X\INTERNAL_EEPROM_CONTROL_Firmware.c
+[v _main main `(v  1 e 1 0 ]
+{
+"54
+[v main@address address `uc  1 a 1 21 ]
+"55
+[v main@counter counter `uc  1 a 1 20 ]
+"54
+[v main@last_addr last_addr `uc  1 a 1 19 ]
+[v main@first_addr first_addr `uc  1 a 1 18 ]
+"93
+} 0
+"16 C:\Users\ACER-PC\Desktop\MPLAB_X_Examples\PIC16F628A_Examples\9_INTERNAL_EEPROM_CONTROL\INTERNAL_EEPROM_CONTROL.X\configurations.c
+[v _Initial_Configurations Initial_Configurations `(v  1 e 1 0 ]
+{
+"159
+} 0
+"197
+[v _EEPROM_get_the_next_free_address EEPROM_get_the_next_free_address `(uc  1 e 1 0 ]
+{
+[v EEPROM_get_the_next_free_address@first_address first_address `uc  1 a 1 wreg ]
+"214
+[v EEPROM_get_the_next_free_address@middle_address middle_address `uc  1 a 1 14 ]
+"199
+[v EEPROM_get_the_next_free_address@clear_address_value clear_address_value `uc  1 a 1 13 ]
+"197
+[v EEPROM_get_the_next_free_address@first_address first_address `uc  1 a 1 wreg ]
+[v EEPROM_get_the_next_free_address@last_address last_address `uc  1 p 1 8 ]
+"199
+[v EEPROM_get_the_next_free_address@first_address first_address `uc  1 a 1 15 ]
+"226
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"179 C:\Users\ACER-PC\Desktop\MPLAB_X_Examples\PIC16F628A_Examples\9_INTERNAL_EEPROM_CONTROL\INTERNAL_EEPROM_CONTROL.X\configurations.c
+[v _EEPROM_read EEPROM_read `(uc  1 e 1 0 ]
+{
+[v EEPROM_read@address address `uc  1 a 1 wreg ]
+"181
+[v EEPROM_read@data data `uc  1 a 1 1 ]
+"179
+[v EEPROM_read@address address `uc  1 a 1 wreg ]
+"182
+[v EEPROM_read@address address `uc  1 a 1 0 ]
+"186
+} 0
+"188
+[v _EEPROM_clear EEPROM_clear `(v  1 e 1 0 ]
+{
+[v EEPROM_clear@from_address from_address `uc  1 a 1 wreg ]
+"191
+[v EEPROM_clear@address_to_be_cleared address_to_be_cleared `uc  1 a 1 5 ]
+"190
+[v EEPROM_clear@clear_address_value clear_address_value `uc  1 a 1 4 ]
+"188
+[v EEPROM_clear@from_address from_address `uc  1 a 1 wreg ]
+[v EEPROM_clear@to_address to_address `uc  1 p 1 7 ]
+"190
+[v EEPROM_clear@from_address from_address `uc  1 a 1 3 ]
+"195
+} 0
+"163
+[v _EEPROM_write EEPROM_write `(v  1 e 1 0 ]
+{
+[v EEPROM_write@address address `uc  1 a 1 wreg ]
+"165
+[v EEPROM_write@GIE_Last_State GIE_Last_State `uc  1 a 1 1 ]
+"163
+[v EEPROM_write@address address `uc  1 a 1 wreg ]
+[v EEPROM_write@data data `uc  1 p 1 6 ]
+[v EEPROM_write@address address `uc  1 a 1 0 ]
+"177
+} 0
+"36 C:\Users\ACER-PC\Desktop\MPLAB_X_Examples\PIC16F628A_Examples\9_INTERNAL_EEPROM_CONTROL\INTERNAL_EEPROM_CONTROL.X\INTERNAL_EEPROM_CONTROL_Firmware.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"40
+[v ISR@i i `uc  1 a 1 5 ]
+"47
+} 0

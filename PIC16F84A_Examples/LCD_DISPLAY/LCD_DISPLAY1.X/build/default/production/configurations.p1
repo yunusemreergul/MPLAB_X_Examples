@@ -1,0 +1,93 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"454 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 454: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"498
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 498: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"166
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 166: extern volatile unsigned char PORTA __attribute__((address(0x005)));
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"210
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 210: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"212
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 212: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"274
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 274: __asm("EEDATA equ 08h");
+[; <" EEDATA equ 08h ;# ">
+"281
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 281: __asm("EEADR equ 09h");
+[; <" EEADR equ 09h ;# ">
+"288
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 288: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"308
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 308: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"386
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 386: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"456
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 456: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"500
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 500: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"562
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 562: __asm("EECON1 equ 088h");
+[; <" EECON1 equ 088h ;# ">
+"606
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h: 606: __asm("EECON2 equ 089h");
+[; <" EECON2 equ 089h ;# ">
+"24 ./configurations.h
+[p x FOSC = XT ]
+"25
+[p x WDTE = OFF ]
+"26
+[p x PWRTE = OFF ]
+"27
+[p x CP = OFF ]
+"13 configurations.c
+[; ;configurations.c: 13: void Initial_Configurations(void)
+[v _Initial_Configurations `(v ~T0 @X0 1 ef ]
+"14
+[; ;configurations.c: 14: {
+{
+[e :U _Initial_Configurations ]
+[f ]
+"25
+[; ;configurations.c: 25:     TRISA = 0x00;
+[e = _TRISA -> -> 0 `i `uc ]
+"26
+[; ;configurations.c: 26:     TRISB = 0x00;
+[e = _TRISB -> -> 0 `i `uc ]
+"29
+[; ;configurations.c: 29:     PORTA = 0x00;
+[e = _PORTA -> -> 0 `i `uc ]
+"30
+[; ;configurations.c: 30:     PORTB = 0x00;
+[e = _PORTB -> -> 0 `i `uc ]
+"31
+[; ;configurations.c: 31: }
+[e :UE 23 ]
+}

@@ -1,0 +1,226 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F84A ]
+[d frameptr 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\itoa.c
+[v _itoa itoa `(*.4uc  1 e 1 0 ]
+"17
+[v _utoa utoa `(*.4uc  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"13 C:\Users\ACER-PC\Desktop\MPLAB_X_Examples\PIC16F84A_Examples\LCD_DISPLAY\LCD_DISPLAY1.X\configurations.c
+[v _Initial_Configurations Initial_Configurations `(v  1 e 1 0 ]
+"16 C:\Users\ACER-PC\Desktop\MPLAB_X_Examples\PIC16F84A_Examples\LCD_DISPLAY\LCD_DISPLAY1.X\LCD.c
+[v _LCD_data_sender LCD_data_sender `(v  1 s 1 LCD_data_sender ]
+"51
+[v _LCD_send_commad LCD_send_commad `(v  1 s 1 LCD_send_commad ]
+"56
+[v _LCD_send_char LCD_send_char `(v  1 e 1 0 ]
+"62
+[v _LCD_send_string LCD_send_string `(v  1 e 1 0 ]
+"70
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+"80
+[v _LCD_entry_mode LCD_entry_mode `(v  1 e 1 0 ]
+"85
+[v _LCD_display_on_off_control LCD_display_on_off_control `(v  1 e 1 0 ]
+"90
+[v _LCD_cursor_or_display_shift LCD_cursor_or_display_shift `(v  1 e 1 0 ]
+"95
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"113
+[v _LCD_set_cursor LCD_set_cursor `(v  1 e 1 0 ]
+"13 C:\Users\ACER-PC\Desktop\MPLAB_X_Examples\PIC16F84A_Examples\LCD_DISPLAY\LCD_DISPLAY1.X\LCD_DISPLAY1_Firmware.c
+[v _main main `(v  1 e 1 0 ]
+"166 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f84a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+[s S84 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+]
+"180
+[u S90 . 1 `S84 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES90  1 e 1 @5 ]
+"210
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S99 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"227
+[u S108 . 1 `S99 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES108  1 e 1 @6 ]
+"454
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"498
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"13 C:\Users\ACER-PC\Desktop\MPLAB_X_Examples\PIC16F84A_Examples\LCD_DISPLAY\LCD_DISPLAY1.X\LCD_DISPLAY1_Firmware.c
+[v _main main `(v  1 e 1 0 ]
+{
+"47
+[v main@i_82 i `i  1 a 2 27 ]
+"41
+[v main@i i `i  1 a 2 29 ]
+"18
+[v main@s s `[1]uc  1 a 1 32 ]
+"17
+[v main@sayi sayi `c  1 a 1 31 ]
+"69
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\itoa.c
+[v _itoa itoa `(*.4uc  1 e 1 0 ]
+{
+[v itoa@buf buf `*.4uc  1 a 1 wreg ]
+[v itoa@buf buf `*.4uc  1 a 1 wreg ]
+[v itoa@val val `i  1 p 2 17 ]
+[v itoa@base base `i  1 p 2 19 ]
+[v itoa@buf buf `*.4uc  1 a 1 23 ]
+"14
+} 0
+"17
+[v _utoa utoa `(*.4uc  1 e 1 0 ]
+{
+[v utoa@buf buf `*.4uc  1 a 1 wreg ]
+"19
+[v utoa@v v `ui  1 a 2 13 ]
+"20
+[v utoa@c c `uc  1 a 1 15 ]
+"17
+[v utoa@buf buf `*.4uc  1 a 1 wreg ]
+[v utoa@val val `ui  1 p 2 8 ]
+[v utoa@base base `i  1 p 2 10 ]
+"22
+[v utoa@buf buf `*.4uc  1 a 1 16 ]
+"37
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"113 C:\Users\ACER-PC\Desktop\MPLAB_X_Examples\PIC16F84A_Examples\LCD_DISPLAY\LCD_DISPLAY1.X\LCD.c
+[v _LCD_set_cursor LCD_set_cursor `(v  1 e 1 0 ]
+{
+[v LCD_set_cursor@row row `uc  1 a 1 wreg ]
+[v LCD_set_cursor@row row `uc  1 a 1 wreg ]
+[v LCD_set_cursor@colomn colomn `uc  1 p 1 4 ]
+[v LCD_set_cursor@row row `uc  1 a 1 7 ]
+"124
+} 0
+"62
+[v _LCD_send_string LCD_send_string `(v  1 e 1 0 ]
+{
+"63
+[v LCD_send_string@i i `uc  1 a 1 7 ]
+"62
+[v LCD_send_string@str str `*.26uc  1 p 2 4 ]
+"68
+} 0
+"56
+[v _LCD_send_char LCD_send_char `(v  1 e 1 0 ]
+{
+[v LCD_send_char@chr chr `uc  1 a 1 wreg ]
+[v LCD_send_char@chr chr `uc  1 a 1 wreg ]
+[v LCD_send_char@chr chr `uc  1 a 1 3 ]
+"60
+} 0
+"95
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+[v LCD_init@DL DL `uc  1 a 1 wreg ]
+[v LCD_init@DL DL `uc  1 a 1 wreg ]
+[v LCD_init@N N `uc  1 p 1 8 ]
+[v LCD_init@F F `uc  1 p 1 9 ]
+[v LCD_init@DL DL `uc  1 a 1 11 ]
+"111
+} 0
+"80
+[v _LCD_entry_mode LCD_entry_mode `(v  1 e 1 0 ]
+{
+[v LCD_entry_mode@I_or_D I_or_D `uc  1 a 1 wreg ]
+[v LCD_entry_mode@I_or_D I_or_D `uc  1 a 1 wreg ]
+[v LCD_entry_mode@S S `uc  1 p 1 4 ]
+[v LCD_entry_mode@I_or_D I_or_D `uc  1 a 1 6 ]
+"83
+} 0
+"85
+[v _LCD_display_on_off_control LCD_display_on_off_control `(v  1 e 1 0 ]
+{
+[v LCD_display_on_off_control@D D `uc  1 a 1 wreg ]
+[v LCD_display_on_off_control@D D `uc  1 a 1 wreg ]
+[v LCD_display_on_off_control@C C `uc  1 p 1 4 ]
+[v LCD_display_on_off_control@B B `uc  1 p 1 5 ]
+[v LCD_display_on_off_control@D D `uc  1 a 1 7 ]
+"88
+} 0
+"90
+[v _LCD_cursor_or_display_shift LCD_cursor_or_display_shift `(v  1 e 1 0 ]
+{
+[v LCD_cursor_or_display_shift@S_or_C S_or_C `uc  1 a 1 wreg ]
+[v LCD_cursor_or_display_shift@S_or_C S_or_C `uc  1 a 1 wreg ]
+[v LCD_cursor_or_display_shift@R_or_L R_or_L `uc  1 p 1 4 ]
+[v LCD_cursor_or_display_shift@S_or_C S_or_C `uc  1 a 1 6 ]
+"93
+} 0
+"70
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+{
+"73
+} 0
+"51
+[v _LCD_send_commad LCD_send_commad `(v  1 s 1 LCD_send_commad ]
+{
+[v LCD_send_commad@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_send_commad@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_send_commad@cmd cmd `uc  1 a 1 3 ]
+"54
+} 0
+"16
+[v _LCD_data_sender LCD_data_sender `(v  1 s 1 LCD_data_sender ]
+{
+[v LCD_data_sender@data data `uc  1 a 1 wreg ]
+[v LCD_data_sender@data data `uc  1 a 1 wreg ]
+"31
+[v LCD_data_sender@data data `uc  1 a 1 2 ]
+"49
+} 0
+"13 C:\Users\ACER-PC\Desktop\MPLAB_X_Examples\PIC16F84A_Examples\LCD_DISPLAY\LCD_DISPLAY1.X\configurations.c
+[v _Initial_Configurations Initial_Configurations `(v  1 e 1 0 ]
+{
+"31
+} 0
